@@ -82,7 +82,7 @@ src/
 2. To test search queries, try with curl or Postman:
   ```bash
    "http://localhost:8080/api/search?q=java"
-    ```
+  ```
    (This returns courses matching the search term "java".)
 
 ### 5️⃣ Stop the services
