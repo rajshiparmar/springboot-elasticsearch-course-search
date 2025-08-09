@@ -56,7 +56,7 @@ src/
   ```bash
    git clone https://github.com/rajshiparmar/springboot-elasticsearch-course-search.git
    cd springboot-elasticsearch-course-search
----
+  ```
 
 ### 2️⃣ Start Elasticsearch using Docker
 1. Ensure **Docker Desktop** (or Docker Engine) is running.
