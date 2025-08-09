@@ -85,7 +85,7 @@ src/
    ```bash
      http://localhost:8080/api/search
    ```
-   (You should see the list of all sample courses in JSON format.You should see the list of all sample courses in JSON format.)
+   (You should see the list of all sample courses in JSON format.)
 2. To test search queries, try with curl or Postman:
   ```bash
    "http://localhost:8080/api/search?q=java"
