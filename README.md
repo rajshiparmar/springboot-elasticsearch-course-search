@@ -83,3 +83,4 @@ src/
    docker-compose -f deployment/docker-compose.yml down
 2. Stop the Spring Boot application by pressing `Ctrl+C` in its terminal.
 
+----
