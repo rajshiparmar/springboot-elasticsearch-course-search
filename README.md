@@ -61,9 +61,13 @@ src/
 ### 2️⃣ Start Elasticsearch using Docker
 1. Ensure **Docker Desktop** (or Docker Engine) is running.
 2. Navigate to the project folder if not already there:
-   cd springboot-elasticsearch-course-search
+    ```bash
+    cd springboot-elasticsearch-course-search
+   ```
 3. Start Elasticsearch container:
+   ```bash
    docker-compose -f deployment/docker-compose.yml up -d
+   ```
 4. Verify Elasticsearch is running:
    ```bash
    curl http://localhost:9200
@@ -72,6 +76,9 @@ src/
 
 ### 3️⃣ Run the Spring Boot application
 1. Run the application
+   ```bash
+    mvn spring-boot:run
+   ```
 
 ### 4️⃣ Test the API
 1. Open your browser and visit:
