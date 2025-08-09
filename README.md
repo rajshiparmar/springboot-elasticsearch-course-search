@@ -65,7 +65,9 @@ src/
 3. Start Elasticsearch container:
    docker-compose -f deployment/docker-compose.yml up -d
 4. Verify Elasticsearch is running:
+   ```bash
    curl http://localhost:9200
+   ```
    (Expected output: JSON response with "cluster_name", "version", etc.)
 
 ### 3️⃣ Run the Spring Boot application
@@ -73,9 +75,11 @@ src/
 
 ### 4️⃣ Test the API
 1. Open your browser and visit:
-    http://localhost:8080/api/search
+   ```bash
+     http://localhost:8080/api/search
+   ```
 (You should see the list of all sample courses in JSON format.You should see the list of all sample courses in JSON format.)
-2. To test search queries, try with curl or Postman:
+3. To test search queries, try with curl or Postman:
    "http://localhost:8080/api/search?q=java"
    (This returns courses matching the search term "java".)
 
