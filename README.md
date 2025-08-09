@@ -79,13 +79,17 @@ src/
      http://localhost:8080/api/search
    ```
 (You should see the list of all sample courses in JSON format.You should see the list of all sample courses in JSON format.)
-3. To test search queries, try with curl or Postman:
+2. To test search queries, try with curl or Postman:
+  ```bash
    "http://localhost:8080/api/search?q=java"
+    ```
    (This returns courses matching the search term "java".)
 
 ### 5️⃣ Stop the services
 ------------------------
 1. To stop the Elasticsearch Docker container:
+```bash
    docker-compose -f deployment/docker-compose.yml down
+```
 2. Stop the Spring Boot application by pressing `Ctrl+C` in its terminal.
 
