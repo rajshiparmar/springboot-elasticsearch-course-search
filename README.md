@@ -103,3 +103,48 @@ src/
 ```
 2. Stop the Spring Boot application by pressing `Ctrl+C` in its terminal.
 
+
+## 🚀 API Testing Guide
+
+Test the course search API with these sample requests:
+
+### **1. Keyword Search**
+```bash
+http://localhost:8080/api/search?q=Python
+```
+
+### **2. Category Filter**
+```bash
+http://localhost:8080/api/search?category=Data%20Science
+```
+
+### **3. Price Range Filter**
+```bash
+http://localhost:8080/api/search?minPrice=300&maxPrice=500
+```
+
+### **4. Age Filter**
+```bash
+http://localhost:8080/api/search?minAge=15
+http://localhost:8080/api/search?maxAge=18
+```
+
+### **5. Course Type Filter**
+```bash
+http://localhost:8080/api/search?type=In-Person
+```
+
+### **6. Pagination Filter**
+```bash
+http://localhost:8080/api/search?category=Programming&page=0&size=5
+```
+
+### **7. Sorting by Price (Ascending)**
+```bash
+http://localhost:8080/api/search?sort=price_asc
+```
+
+### **8. Text Search with Age+Category**
+```bash
+http://localhost:8080/api/search?q=artificial%20intelligence&minAge=15&category=AI/ML
+```
