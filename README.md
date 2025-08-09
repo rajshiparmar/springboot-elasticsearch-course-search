@@ -53,7 +53,7 @@ src/
 -------------------------------
 1. Open a terminal (Linux/macOS) or Command Prompt/PowerShell (Windows).
 2. Run:
- ``base
+  ```bash
    git clone https://github.com/rajshiparmar/springboot-elasticsearch-course-search.git
    cd springboot-elasticsearch-course-search
 
