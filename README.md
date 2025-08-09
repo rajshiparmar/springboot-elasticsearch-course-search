@@ -56,6 +56,7 @@ src/
   ```bash
    git clone https://github.com/rajshiparmar/springboot-elasticsearch-course-search.git
    cd springboot-elasticsearch-course-search
+---
 
 ### 2️⃣ Start Elasticsearch using Docker
 1. Ensure **Docker Desktop** (or Docker Engine) is running.
@@ -84,4 +85,3 @@ src/
    docker-compose -f deployment/docker-compose.yml down
 2. Stop the Spring Boot application by pressing `Ctrl+C` in its terminal.
 
-----
