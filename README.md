@@ -59,6 +59,7 @@ src/
   ```
 
 ### 2️⃣ Start Elasticsearch using Docker
+-------------------------------
 1. Ensure **Docker Desktop** (or Docker Engine) is running.
 2. Navigate to the project folder if not already there:
     ```bash
@@ -75,25 +76,27 @@ src/
    (Expected output: JSON response with "cluster_name", "version", etc.)
 
 ### 3️⃣ Run the Spring Boot application
+-------------------------------
 1. Run the application
    ```bash
     mvn spring-boot:run
    ```
 
 ### 4️⃣ Test the API
+-------------------------------
 1. Open your browser and visit:
    ```bash
-     http://localhost:8080/api/search
+   http://localhost:8080/api/search
    ```
    (You should see the list of all sample courses in JSON format.)
 2. To test search queries, try with curl or Postman:
   ```bash
-   "http://localhost:8080/api/search?q=java"
+  http://localhost:8080/api/search?q=java
   ```
    (This returns courses matching the search term "java".)
 
 ### 5️⃣ Stop the services
-------------------------
+-------------------------------
 1. To stop the Elasticsearch Docker container:
 ```bash
    docker-compose -f deployment/docker-compose.yml down
